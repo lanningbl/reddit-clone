@@ -1,0 +1,121 @@
+.comment-container {
+  font-family: noto-sans;
+  font-size: 0.75rem;
+  padding-top: 0.5rem;
+
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+
+    .vote-arrows {
+      color: rgb(135, 138, 140);
+      display: flex;
+      flex-direction: column;
+
+      .up-arrow {
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        height: 1.25rem;
+        padding: 0.125rem;
+        width: 1.25rem;
+
+        &:hover {
+          background-color: rgb(232, 232, 232);
+          color: rgb(204, 55, 0);
+        }
+      }
+
+      .down-arrow {
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        height: 1.25rem;
+        padding: 0.125rem;
+        width: 1.25rem;
+
+        &:hover {
+          background-color: rgb(232, 232, 232);
+          color: rgb(90, 117, 204);
+        }
+      }
+
+      .vertical-line {
+        background: linear-gradient(#edeff1, #edeff1) no-repeat center/0.125rem
+          100%;
+        flex: 1 1 auto;
+        margin-top: 0.125rem;
+
+        &:hover {
+          background: linear-gradient(#4ea45e, #4ea45e) no-repeat
+            center/0.125rem 100%;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .plus-circle {
+      color: #4ea45e;
+      cursor: pointer;
+      margin-top: 0.1875rem;
+      min-width: 1.25rem;
+    }
+  }
+
+  .comment-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.0625rem;
+    width: 100%;
+
+    .header {
+      padding-left: 0.625rem;
+      padding-top: 0.125rem;
+
+      .info {
+        color: #747576;
+        font-family: ibm-plex-sans;
+        padding-left: 0.3125rem;
+      }
+    }
+
+    .better-name {
+      padding-left: 0.625rem;
+    }
+
+    .comment {
+      font-family: noto-sans;
+      font-size: 0.875rem;
+    }
+
+    .btn-group {
+      display: inline-block;
+      margin: 0.25rem 0 0.5rem;
+
+      .comment-btn {
+        background-color: transparent;
+        border-color: transparent;
+        color: rgb(135, 138, 140);
+        font-family: ibm-plex-sans-bold;
+        font-size: 0.75rem;
+        padding: 0.1875rem;
+
+        &:hover {
+          background-color: rgb(231, 231, 231);
+        }
+      }
+    }
+  }
+
+  .card-footer {
+    align-items: center;
+    display: flex;
+    font-family: open-sans;
+    font-size: 0.6875rem;
+    justify-content: space-between;
+  }
+}

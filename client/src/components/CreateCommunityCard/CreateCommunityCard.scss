@@ -1,0 +1,71 @@
+.create-community-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  flex-direction: column;
+  height: 244px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  padding: 12px;
+}
+
+.create-community-card__banner {
+  background-image: url('../../assets/img/create-community-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 34px;
+  margin: -12px;
+}
+
+.create-community-card__header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  line-height: 40px;
+}
+
+.create-community-card__logo {
+  background-image: url('../../assets/img/create-community-logo.png');
+  background-size: cover;
+  height: 65px;
+  width: 40px;
+}
+
+.create-community-card__title {
+  font-family: ibm-medium;
+  padding: 24px 0 0 10px;
+  position: relative;
+}
+
+.create-community-card__text {
+  font-family: noto-sans;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 8px 0 4px 0;
+}
+
+.create-post-btn {
+  border: 1px solid transparent;
+  border-color: #0066cc;
+  color: white;
+  background-color: #0066cc;
+  max-width: 286px;
+  font-size: 14px;
+  font-family: ibm-bold;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  padding: 0 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: #7fbce9;
+    border-color: #7fbce9;
+  }
+}

@@ -1,0 +1,59 @@
+.create-post-card-container {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+  padding: 8px;
+
+  .create-post-btn {
+    background-color: #f6f7f8;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    color: #888;
+    font-family: ibm-plex-sans;
+    font-size: 14px;
+    line-height: 36px;
+    margin: 0 8px;
+    max-height: 36px;
+    overflow: hidden;
+    padding: 0 16px;
+
+    &:hover {
+      background-color: #fff;
+      border-color: #0066cc;
+      cursor: text;
+    }
+  }
+
+  img {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+  }
+
+  .post-type {
+    color: #888;
+    display: flex;
+    justify-content: right;
+
+    .post-btn {
+      align-items: center;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      font-family: ibm-plex-sans-bold;
+      height: 38px;
+      justify-content: center;
+      width: 38px;
+
+      &:hover {
+        background-color: #e7e7e7;
+      }
+    }
+  }
+}

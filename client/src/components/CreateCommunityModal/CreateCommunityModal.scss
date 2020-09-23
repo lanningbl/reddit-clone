@@ -1,0 +1,99 @@
+.create-community-modal__btn {
+  font-size: 14px;
+  line-height: 32px;
+  margin-top: 10px;
+  padding: 0 16px;
+}
+
+.create-community-modal__modal {
+  width: 850px;
+  height: 650px;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.create-community-modal__title {
+  font-family: ibm-bold;
+  font-size: 18px;
+  padding-bottom: 2rem;
+}
+
+.create-community-modal__form-control {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.create-community-modal__input {
+  font-size: 14px;
+  display: block;
+  width: 254px;
+  height: 34px;
+  background-color: #fafafa;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  padding: 0 12px;
+  padding-top: 12px;
+
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: #fff;
+    border-color: #ccc;
+  }
+
+  &:valid {
+    border-color: #24a0ed;
+    background-color: #fff;
+  }
+
+  &:invalid {
+    box-shadow: none;
+  }
+
+  form.submitted &:required:invalid {
+    border-color: red;
+  }
+}
+
+.create-community-modal__label {
+  font-family: ibm-bold;
+  color: #a5a5a5;
+  font-size: 10px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 12px;
+  top: 20px;
+  transition: 0.2s ease all;
+  text-transform: uppercase;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+input:focus ~ label,
+input:hover ~ label,
+input:valid ~ label {
+  top: 10px;
+  font-size: 8px;
+}
+
+.create-community-modal__submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0079d3;
+  border-radius: 4px;
+  margin-right: 1rem;
+  color: white;
+  width: 280px;
+  height: 35px;
+  font-family: ibm-bold;
+  font-size: 14px;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    background-color: #3394dc;
+  }
+}

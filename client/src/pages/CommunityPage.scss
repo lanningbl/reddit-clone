@@ -1,0 +1,50 @@
+// .subreddit-container {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   padding: 20px 24px;
+
+//   .card {
+//     border: 1px solid rgb(204, 204, 204);
+//     margin-bottom: 10px;
+//     background-color: #fff;
+//     border-radius: 4px;
+//     cursor: pointer;
+//   }
+
+//   main {
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+//     max-width: 640px;
+
+//     .card {
+//       max-height: 850px;
+//       width: 100%;
+
+//       &:hover {
+//         border-color: rgb(137, 137, 137);
+//       }
+//     }
+//   }
+
+//   aside {
+//     width: 312px;
+//     min-width: 312px;
+//     margin-left: 20px;
+
+//     .card {
+//       width: 312px;
+//     }
+
+//     .aside-community-banner {
+//       display: flex;
+//       align-items: flex-end;
+//       background-image: url('https://styles.redditmedia.com/t5_2yuqy/styles/bannerBackgroundImage_7yjisz96x7921.jpg?format=pjpg&s=e2cd891acccd266b5d86b452cdf9e49894ad44c9');
+//       min-height: 80px;
+//       color: white;
+//       padding: 0 0 8px 15px;
+//       font-family: ibm-plex-sans-bold;
+//     }
+//   }
+// }
