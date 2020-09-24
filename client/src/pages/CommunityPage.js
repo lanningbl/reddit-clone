@@ -56,7 +56,7 @@ const CommunityPage = () => {
     };
 
     axios
-      .post('http://localhost:5000/graphql', requestBody)
+      .post('/graphql', requestBody)
       .then((res) => {
         if (res.status !== 200 && res.status !== 201) {
           throw new Error('Failed!');
